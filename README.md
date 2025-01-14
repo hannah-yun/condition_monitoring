@@ -1,9 +1,11 @@
 **Condition monitoring for vibration signals in bearings gearboxes**
 
 **Overview**
+
 This repository has R and Matlab code, data, and resources for condition monitoring bearings in gearboxes using vibration signal analysis. It aims to identify faults and assess the conditions in the wind turbines with a Dictionary Learning algorithm and various simplification techniques when plotting the results, such as Piecewise Linear Approximation and averaging the value. Moreover, we would like to utilise this analysis for real-time monitoring. 
 
 **Datasets**
+
 There are three datasets that are publicly available for research purposes:
 - Case1(abrupt change): Wind turbine gearbox condition monitoring vibration analysis benchmarking dataset 
 - Case2 (gradual change): Bearing run-to-failure datasets of UNSW
@@ -12,13 +14,16 @@ There are three datasets that are publicly available for research purposes:
 When downloading each dataset, please use the links in dataset_download file. 
 
 **Requirements**
+
 Ensure you have the following installed:
+
 - MATLAB and R 
 - Required Libraries:
 - MATLAB: Signal Processing Toolbox
 - R: ggplot2, cpop, and tidyverse (if required)
 
 **How to use**
+
 _Step 1: Data preparation_
 Prepare the vibration signal data. This step includes importing and reshaping the data into MATLAB. 
 
