@@ -1,0 +1,54 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red13\green13\blue20;}
+{\*\expandedcolortbl;;\cssrgb\c5490\c6275\c10196;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs28 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Condition monitoring for vibration signals in bearings gearboxes
+\f1\b0 \
+\
+
+\f0\b Overview
+\f1\b0 \
+This repository has R and Matlab code, data, and resources for condition monitoring bearings in gearboxes using vibration signal analysis. It aims to identify faults and assess the conditions in the wind turbines with a Dictionary Learning algorithm and various simplification techniques when plotting the results, such as Piecewise Linear Approximation and averaging the value. Moreover, we would like to utilise this analysis for real-time monitoring.\'a0\
+\
+
+\f0\b Datasets
+\f1\b0 \
+There are three datasets that are publicly available for research purposes:\
+- Case1(abrupt change): Wind turbine gearbox condition monitoring vibration analysis benchmarking dataset\'a0\
+- Case2 (gradual change): Bearing run-to-failure datasets of UNSW\
+- Case3 (combination of abrupt and gradual change): Dataset concerning the vibration signals from wind turbines in northern Sweden\
+\
+When downloading each dataset, please use the links in dataset_download file.\'a0\
+\
+
+\f0\b Requirements
+\f1\b0 \
+Ensure you have the following installed:\
+- MATLAB and R\'a0\
+- Required Libraries:\
+- MATLAB: Signal Processing Toolbox\
+- R: ggplot2, cpop, and tidyverse (if required)\
+\
+
+\f0\b How to use
+\f1\b0 \
+Step 1: Data preparation\
+Prepare the vibration signal data. This step includes importing and reshaping the data into MATLAB.\'a0\
+\
+Step 2: Data pre-processing\
+Pre-process the dataset from step 1, including filtering for case 3 and applying the Welch method for all 3 cases.\
+\
+Step 3: Implementing the DL process to find three indicators\
+We use two sparse coding methods: Orthogonal Matching Pursuit and Orthogonal Matching Pursuit in the L_1 norm (Manhattan distance). Here, we use three indicators:\'a0\
+- the dictionary distance between the present estimated dictionary and the estimated dictionary from random generation.\
+- the sparsity levels that are selected during the DL process\
+- Extended Bayesian Information Criteria (EBIC) that evaluates how well the dictionary fits the dictionary.\'a0\
+\
+Step 4: Visualise results\
+Generate plots for the time domain with three indicators with R.\
+}
