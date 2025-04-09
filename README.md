@@ -24,7 +24,7 @@ Ensure you have the following installed:
 
 **How to use**
 
-_Step 1: Data preparation_
+Step 1: Data preparation_
 Prepare the vibration signal data. This step includes importing and reshaping the data into MATLAB. 
 
 _Step 2: Data pre-processing_
