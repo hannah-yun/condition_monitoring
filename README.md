@@ -17,10 +17,10 @@ We run experiments on three datasets that are publicly available, which can be d
 Ensure you have the following installed:
 - MATLAB and R 
 - Required Libraries:
-- MATLAB: Signal Processing Toolbox, DL Toolbox
+- MATLAB: Signal Processing Toolbox, The DL Toolbox
 - R: ggplot2, cpop, and tidyverse (if required)
 
-In the DL Toolbox, we use a dictionary learning function called DL, which is adapted from https://gitlab.com/pirofti/dl-box. This toolbox can be found in the DL folder.
+In the DL Toolbox, we use a dictionary learning function called DL, which can be downloaded from https://github.com/dl-book. In the repository, please download the DL folder.
 
 **How to use**
 
