@@ -6,21 +6,21 @@ This repository contains R and Matlab code for condition monitoring of bearings 
 
 **Datasets**
 
-We run experiments on three datasets that are publicly available:
-- Case I (abrupt change): Wind turbine gearbox condition monitoring vibration analysis benchmarking dataset 
-- Case II (gradual change): Bearing run-to-failure datasets of UNSW
-- Case III (combination of abrupt and gradual change): Dataset concerning the vibration signals from wind turbines in Northern Sweden
+We run experiments on three datasets that are publicly available, which can be downloaded from each link:
+- Case I (abrupt change): Wind turbine gearbox condition monitoring vibration analysis benchmarking dataset (link: https://data.openei.org/submissions/738)
+- Case II (gradual change): Bearing run-to-failure datasets of UNSW (link: https://data.mendeley.com/datasets/h4df4mgrfb/3)
+- Case III (combination of abrupt and gradual change): Dataset concerning the vibration signals from wind turbines in Northern Sweden (link: https://ltu.diva-portal.org/smash/record.jsf?pid=diva2%3A1244889&dswid=-9007)
 
-When downloading each dataset, please use the links in dataset_download file. 
 
 **Requirements**
 
 Ensure you have the following installed:
-
 - MATLAB and R 
 - Required Libraries:
-- MATLAB: Signal Processing Toolbox
+- MATLAB: Signal Processing Toolbox, DL Toolbox
 - R: ggplot2, cpop, and tidyverse (if required)
+
+In the DL Toolbox, we use a dictionary learning function called DL, which is adapted from https://gitlab.com/pirofti/dl-box. This toolbox can be found in the DL folder.
 
 **How to use**
 
