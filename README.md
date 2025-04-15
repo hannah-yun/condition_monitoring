@@ -20,7 +20,7 @@ Ensure you have the following installed:
 - MATLAB: Signal Processing Toolbox, The DL Toolbox
 - R: ggplot2, cpop, and tidyverse (if required)
 
-In the DL Toolbox, we use a dictionary learning function called DL, which can be downloaded from https://github.com/dl-book. In the repository, please download the DL folder.
+In order to run dictionary learning, we use a function called DL, which can be downloaded from https://github.com/dl-book. Please download the DL folder in the repository.
 
 **How to use**
 
