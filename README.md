@@ -22,18 +22,20 @@ Ensure you have the following installed:
 
 In order to run dictionary learning, we use a function called DL in the DL Toolbox, which can be downloaded from https://github.com/dl-book. Please download the DL folder in the repository.
 
-**How to use**
+**How to run the Code**
 
-_Step 1: Data preparation_
-Prepare the vibration signal data. This step includes importing and reshaping the data into MATLAB. 
+_Step 1: Download datasets_
+Download the dataset from the websites listed in the above for Cases I, Case II, or Case III.
 
 _Step 2: Data pre-processing_
-Pre-process the dataset from step 1, including filtering for Case III and applying the Welch's method for all 3 cases.
+- Open the `1_data_pre-processing` folder corresponding to the appropriate case (Case I, Case II, or Case III).
+- First reshape the data, then proceed with the Welch method. For Case III, the filtering processes are included in the reshaping MATLAB file.
 
-_Step 3: Implementing the DL process to compute three indicators_:
-- the dictionary distance between the current estimated dictionary and the dictionary estimated from the initial segments of the signal
-- the sparsity levels selected during the DL process
-- Extended Bayesian Information Criteria (EBIC) 
+_Step 3: Implementing the DL process to compute three indicators_
+- Select either `2_1_run_AKSVD_matlab` or `2_2_run_AKSVD1_matlab` depending on sparse coding method. To run the AKSVD method, please download the MATLAB package from [https://github.com/dl-book].
+- When running the DL algorithm, the main script begins with `main_DL_`. Please run this matlab file. All necessary functions are provided separately in each folder and shared file folder.
 
 _Step 4: Visualise results_
-Generate plots for the three indicators by using R.
+To plot the indicators—dictionary distance, sparsity, and EBIC--open the `3_indicators_R` folder. You can choose a folder based on the specific case. Case I and Case III compute their values using Piecewise Linear Approximation (PLA), while Case II uses averaging. Each folder contains several R scripts:
+- Scripts for creating data frames from MATLAB objects
+- Various plotting scripts. Each case has different plots used in the paper, so you can select the ones you'd like to simulate. These scripts are prefixed with `1_`, `2_`, `3_`, etc. Each R script includes a description of its purpose.
