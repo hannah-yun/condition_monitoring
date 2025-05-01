@@ -25,6 +25,7 @@ In order to run dictionary learning, we use a function called DL in the DL Toolb
 **How to run the Code**
 
 _Step 1: Download datasets_
+
 Download the dataset from the websites listed in the above for Cases I, Case II, or Case III.
 
 _Step 2: Data pre-processing_
@@ -36,6 +37,7 @@ _Step 3: Implementing the DL process to compute three indicators_
 - When running the DL algorithm, the main script begins with `main_DL_`. Please run this matlab file. All necessary functions are provided separately in each folder and shared file folder.
 
 _Step 4: Visualise results_
+
 To plot the indicators—dictionary distance, sparsity, and EBIC--open the `3_indicators_R` folder. You can choose a folder based on the specific case. Case I and Case III compute their values using Piecewise Linear Approximation (PLA), while Case II uses averaging. Each folder contains several R scripts:
 - Scripts for creating data frames from MATLAB objects
 - Various plotting scripts. Each case has different plots used in the paper, so you can select the ones you'd like to simulate. These scripts are prefixed with `1_`, `2_`, `3_`, etc. Each R script includes a description of its purpose.
