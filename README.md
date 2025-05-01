@@ -37,5 +37,5 @@ _Step 3: Implementing the DL process to compute three indicators_
 
 _Step 4: Visualise results_
 - To plot the indicators—dictionary distance, sparsity, and EBIC--open the `3_indicators_R` folder. You can choose a folder based on the specific case. Case I and Case III compute their values using Piecewise Linear Approximation (PLA), while Case II uses averaging. Each folder contains several R scripts:
--   Scripts for creating data frames from MATLAB objects
--   Various plotting scripts. Each case has different plots used in the paper, so you can select the ones you'd like to simulate. These scripts are prefixed with `1_`, `2_`, `3_`, etc. Each R script includes a description of its purpose.
+  - Scripts for creating data frames from MATLAB objects
+  - Various plotting scripts. Each case has different plots used in the paper, so you can select the ones you'd like to simulate. These scripts are prefixed with `1_`, `2_`, `3_`, etc. Each R script includes a description of its purpose.
