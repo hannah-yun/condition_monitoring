@@ -25,7 +25,7 @@ In order to run dictionary learning, we use a function called DL in the DL Toolb
 **How to run the Code**
 
 _Step 1: Download datasets_
-- Download the dataset from the websites listed in the above for Cases I, Case II, or Case III.
+- Download the dataset from the websites listed above (for Case I, Case II, or Case III).
 
 _Step 2: Data pre-processing_
 - Open the `1_data_pre-processing` folder corresponding to the appropriate case (Case I, Case II, or Case III).
